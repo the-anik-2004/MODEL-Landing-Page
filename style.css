@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+.main{
+    height: 100%;
+    width:100%;
+    display:flex;
+    background-color: rgba(161, 187, 240, 0.95);
+}
+#part1{
+    position: absolute;
+    top:5%;
+    left: 5%;
+    height:100%;
+    width:25%;
+   
+}
+#part2{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    overflow:visible;
+    height:100%;
+    width:69%;
+    left:25%;
+    right:7%;
+    background-color: #c7d1d1; 
+    background-image: url(vjd.jpg);
+    background-size: cover;
+    background-position: top;
+    
+}
+
+
+#ol{
+    height: 100%;
+    width:100%;
+    background: rgba(5, 12, 84, 0.346);
+}
+#text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80px;
+    width:150px;
+    position: absolute;
+    left:19%;
+    top:35%;
+  
+    text-shadow: 2px 2px 1px rgb(248, 252, 4);
+
+}
+#text h3{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+#small_image{
+    height: 300px;
+    width:200px;
+    background-image: url(https://www.andhrawishesh.com/images/phocagallery/Actors/Telugu/VijayDevarakondaLatestPics/Vijay-Devarakonda-Latest-Pics-06.JPG?is-pending-load=1);
+    background-size: cover;
+    background-position: center;    
+    position:absolute;
+    top:40%;
+    right:4%;
+    transform:translate(0,-50%)
+
+}
+
+#smallol{
+    height: 100%;
+    width:100%;
+    background: rgba(5, 12, 84, 0.346);
+}
+#vert-text{
+    position: absolute;
+    width: 800px;
+    transform-origin: 0% 0%;
+    right: -100%;
+    top:100%;
+}
+#vert-text h1{
+    font-size: 60px;
+    font-weight: 700;
+    position: absolute;
+    color: transparent;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: azure;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    
+}
+#nav{display: flex;
+    justify-content: space-between;
+   
+ 
+    height: 200px;
+   
+}
+#nav img{
+    
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+h4{
+    position: absolute;
+    transform-origin: 0% 0%;
+    color:rgba(245, 245, 245, 0.582);
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    top:15%;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left:20%;
+}
+/* #part3{
+    height:100%;
+    width:6%;
+} */
